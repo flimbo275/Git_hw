@@ -1,1 +1,1 @@
-# JS_course
+# Git_hw
