@@ -1,1 +1,26 @@
 
+Title:
+Error 500 when saving changes in user profile
+
+Severity: 
+Critical
+
+Environment:
+https://example.site/profile/
+Operating System: Windows 10 Pro 64-bit
+Browser: Google Chrome Version Version 124.0.6367.208
+
+Precondition:
+User is logged in
+
+Steps to reproduce:
+1. Go to the user profile page 
+2. Click on the "Edit" icon
+3. Make any change (e.g., update the email address)
+4. Click on the "Save" button
+
+Actual result:
+The message "something went wrong" is shown. 500 status code in response
+
+Expected result:
+The message "Profile has been successfully updated" is shown. 200 status code in response
